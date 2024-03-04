@@ -8,7 +8,11 @@ const RecipeCard = ({ idMeal, strMeal, strCategory, strMealThumb }) => {
         <span className="category">{strCategory}</span>
         <h3>{strMeal}</h3>
         <button className="button">
-          <a href={"https://www.themealdb.com/meal/" + idMeal} target="_blank">
+          <a
+            href={"https://www.themealdb.com/meal/" + idMeal}
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             Instruction
           </a>
         </button>
